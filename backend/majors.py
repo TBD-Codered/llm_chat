@@ -1,19 +1,13 @@
+#from azure.core.credentials import AzureKeyCredential
+#from azure.search.documents import SearchClient
+
 import sys
 import openai
 import asyncio
-
 import os
-
-
 import time
 
 from dotenv import load_dotenv
-
-if len(sys.argv) != 7:
-     print("Incorrect Amount of arguments")
-     exit()
-
-load_dotenv()
 
 async def get_completion(scores, model="gpt-3.5-turbo"):
 
@@ -49,8 +43,18 @@ C: {}
 
 
 async def main():
+    if len(sys.argv) != 7:
+         print("Incorrect Amount of arguments")
+         exit()
 
-    print(os.environ)
+    load_dotenv()
+
+    #service_endpoint = os.environ["AZURE_SEARCH_SERVICE_ENDPOINT"]
+    #index_name = os.environ["AZURE_SEARCH_INDEX_NAME"]
+    #key = os.environ["AZURE_SEARCH_API_KEY"]
+
+    #search_client = SearchClient(service_endpoint, index_name, AzureKeyCredential(key))
+
     openai.api_key = os.environ["OPENAI_AUTH_KEY"]
 
     scores = {
