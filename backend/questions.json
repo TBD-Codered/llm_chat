@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "content":"I like to build things",
+      "type" : "R"
+    }, 
+    {
+      "content":"I am a practical person",
+      "type" : "R"
+    },
+
+    {
+      "content": "I like working outdoors",
+      "type" : "R"
+    },
+    {
+      "content": "I like to do puzzles", 
+      "type" : "I"
+    },
+    {
+      "content": "I enjoy science", 
+      "type" : "I"
+    },
+    {
+      "content": "I like working with numbers or charts", 
+      "type" : "I"
+    },
+    {
+      "content": "I like to play instruments or sing", 
+      "type" : "A"
+    },
+    {
+      "content": "I am a creative person", 
+      "type" : "A"
+    },
+    {
+      "content": "I like to read about art and music", 
+      "type" : "A"
+    },
+    {
+      "content": "I like helping people",
+      "type" : "S"
+    },
+    {
+      "content": "I like to teach or train people",
+      "type" : "S"
+    },
+    {
+      "content": "I like to work in teams",
+      "type" : "S"
+    },
+    {
+      "content": "I like selling things",
+      "type" : "E"
+    },
+    {
+      "content": "I like to lead",
+      "type" : "E"
+    },
+    {
+      "content": "I would like to start my own business",
+      "type" : "E"
+    },
+    {
+      "content": "  I wouldn’t mind working 8 hours per day in an office",
+      "type" : "C"
+    },
+    {
+      "content": "I like to do filing or typing",
+      "type" : "C"
+    },
+    {
+      "content": "I am good at keeping records of my work",
+      "type" : "C"
+    },
+  ]
+}
+
